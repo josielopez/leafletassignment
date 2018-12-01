@@ -1,9 +1,10 @@
-#hmap { height: 500px; width: 700px}
+#hmap { height: 500px; width: 700px;
+margin: auto}
 
 #container {
   margin: auto;
   padding: 2rem;
-  max-width: 700px
+  max-width: 670px
 }
 
 h1 {
@@ -28,3 +29,15 @@ p {
     line-height: 23px;
     margin: 0 0 23px 0;
     }
+
+
+@media screen and (max-width: 600px) {
+  #container {
+    max-width: 500px;
+  }
+
+  #hmap {
+    width: 300px;
+    max-height: 500px;
+  }
+}
